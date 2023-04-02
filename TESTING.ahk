@@ -29,5 +29,5 @@ CapsLock & k::Up
 CapsLock & l::Right
 CapsLock & n::Home
 CapsLock & m:: End
-CapsLock & u::PgDn
-CapsLock & i::PgUp
+CapsLock & u::PgUp
+CapsLock & i::PgDn
