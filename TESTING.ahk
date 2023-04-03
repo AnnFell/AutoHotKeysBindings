@@ -1,4 +1,4 @@
-﻿#Requires AutoHotkey v2.0
+#Requires AutoHotkey v2.0
 ProcessSetPriority "High"
 
 ; # win, ! alt, ^ ctrl, + shift, & to combine keys or mouse
@@ -7,27 +7,28 @@ ProcessSetPriority "High"
 ; 
 
 MsgBox "Using AutoHotKeys"
-
-^1::F1
-^2::F2
-^3::F3
-^4::F4
-^5::F5
-^6::F6
-^7::F7
-^8::F8
-^9::F9
-^0::F10
-^-::F11
-^=::F12
-
 SetCapsLockState "AlwaysOff"
 
-CapsLock & h::Left
-CapsLock & j::Down
-CapsLock & k::Up
+CapsLock & 1::F1
+CapsLock & 2::F2
+CapsLock & 3::F3
+CapsLock & 4::F4
+CapsLock & 5::F5
+CapsLock & 6::F6
+CapsLock & 7::F7
+CapsLock & 8::F8
+CapsLock & 9::F9
+CapsLock & 0::F10
+CapsLock & -::F11
+CapsLock & =::F12
+
+CapsLock & j::Left
+CapsLock & i::Up
+CapsLock & k::Down
 CapsLock & l::Right
-CapsLock & n::End
-CapsLock & m::Home
-CapsLock & u::PgDn
-CapsLock & i::PgUp
+CapsLock & h::Home
+CapsLock & `;::End
+CapsLock & u::PgUp
+CapsLock & o::PgDn
+
+CapsLock & BackSpace::Delete
